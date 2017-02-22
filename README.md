@@ -1,1 +1,1 @@
-# Readme for BlackPhreaker
+# BlackPhreaker for GSM Snifing and Decrypting
