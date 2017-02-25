@@ -4,7 +4,7 @@
 #pragma compile(ProductName, sms_scan.py)
 #pragma compile(FileVersion, 1.0.0)
 #pragma compile(ProductVersion, 1.0.0)
-#pragma compile(FileDescription, IMSI_Catcher GSM Utility)
+#pragma compile(FileDescription, GSM Utility)
 #pragma compile(Comments, Program made by BlackPhreaker)
 #pragma compile(LegalCopyright, Copyright © 1991-2017 BlackPhreaker (BlackPhreaker))
 #pragma compile(CompanyName, BlackPhreaker Tech Company Almaty)
