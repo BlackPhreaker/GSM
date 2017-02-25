@@ -1,0 +1,4 @@
+1) SDR RTL 2832-R820T (25 MHz – 1.8 GHz) !!!
+2) SDR RTL 2832-E4000 (27 MHz – 2 GHz) !!!
+3) HackRF One (25 MHz – 6 GHz) !!!
+4) USRP B210 (70 MHz – 6 GHz) ???
