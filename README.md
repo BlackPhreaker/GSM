@@ -1,1 +1,1 @@
-# BlackPhreaker for GSM Snifing and Decrypting
+# GSM Snifing and Decrypting by BlackPhreaker (2017)
