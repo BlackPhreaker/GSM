@@ -7,7 +7,7 @@
 #pragma compile(FileDescription, GSM Utility)
 #pragma compile(Comments, Program made by BlackPhreaker)
 #pragma compile(LegalCopyright, Copyright © 1991-2017 BlackPhreaker (BlackPhreaker))
-#pragma compile(CompanyName, BlackPhreaker Tech Company Almaty)
+ 
 #pragma compile(Sign, BlackPhreaker)
 #pragma compile(Date, 00.02.2017)
 #======================================================================================
