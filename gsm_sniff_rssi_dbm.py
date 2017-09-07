@@ -16,7 +16,7 @@ from scapy.all import sniff
 from optparse import OptionParser
 
 '''
-		  0  1  2  3  4  5  6  7   8  9  a  b  c  d  e  f  
+	      0  1  2  3  4  5  6  7   8  9  a  b  c  d  e  f  
 	0000 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
 	0010 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
 	0020 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
@@ -41,7 +41,7 @@ def gsm_sniff(x): #
 	dbm=hex(ord(p[0x30]))
 	dbm2=dbm[2:]	
 	dbm3=(dbm2).encode("HEX").decode('utf-8') ###
-	dbm4=int(dbm2, 16) # (HEX to DEC 1 byte)
+	dbm4=int(dbm2, 16) # (HEX to DEC 8 byte)
 	dbm5=(-(dbm4 & 0x80) | (dbm4 & 0x7f)) # (HEX to DEC 1 byte)
 	
 	print (" HEX: {:2s} | HEX: {:2s} | UTF-8: {:4s} | DEC(8 byte): {:4s} | DEC(1 byte): {:4s}".format(str(dbm), str(dbm2), str(dbm3), str(dbm4), str(dbm5))) #, str(tests)))
